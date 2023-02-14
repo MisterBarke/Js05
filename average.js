@@ -7,10 +7,10 @@ function average() {
     }
   
     var average1 = sum / notes.length;
-    console.log(average1);
     
+    console.log(average1);
   }
-  
+ 
   
   average();
   
