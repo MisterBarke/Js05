@@ -1,16 +1,18 @@
-function average(numbers) {
+function average() {
+  var notes = [20, 12, 8, 9];
     var sum = 0;
   
-    for (var i = 0; i < numbers.length; i++) {
-      sum += numbers[i];
+    for (var i = 0; i < notes.length; i++) {
+      sum += notes[i];
     }
   
-    var average = sum / numbers.length;
-    return { sum: sum, average: average };
+    var average1 = sum / notes.length;
+    console.log(average1);
+    
   }
   
-  var result = average([20, 12, 8, 9]);
   
-  console.log(result.average);
+  average();
+  
 
   module.exports = average;

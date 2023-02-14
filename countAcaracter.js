@@ -12,8 +12,9 @@ function countAcaracter(eminem, letter) {
     return count;
   }
   
-  var notWell = "Bonjour, chers candidat comment vous allez aujourd'hui";
-  
+  let sentence = "Bonjour, chers candidat comment vous allez aujourd'hui";
+
+
   var letter = "a";
-  var count = countAcaracter(notWell, letter);
+  var count = countAcaracter(sentence, letter);
   console.log("Le nombre d'occurrences de '" + letter +  "' est : " + count);
