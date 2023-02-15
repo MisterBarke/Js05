@@ -6,13 +6,13 @@ function average() {
       sum += notes[i];
     }
   
-    var average1 = sum / notes.length;
+    return sum / notes.length;
     
-    console.log(average1);
+    
   }
- 
+  console.log(average());
   
-  average();
+ 
   
 
   module.exports = average;
